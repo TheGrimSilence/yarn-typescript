@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@types/node", "npm:15.3.0"],
+            ["@types/node", "npm:15.3.1"],
             ["@yarnpkg/pnpify", "virtual:aa340b129fe8956397f97ec8c432e25aa1bb988b47f564a7f542f212694ba82d2f2b79aba8f4fcfb1128ebe16b0086e00f9c73e94c298b6995a5b9560651772c#npm:3.0.0-rc.3"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
@@ -157,6 +157,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-15.3.0-7ebc66d6bc-44039665ab.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:15.3.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:15.3.1", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-15.3.1-2d4ca53b7d-1c3c94f4c8.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:15.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1510,7 +1517,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["yarn-typescript", "workspace:."],
-            ["@types/node", "npm:15.3.0"],
+            ["@types/node", "npm:15.3.1"],
             ["@yarnpkg/pnpify", "virtual:aa340b129fe8956397f97ec8c432e25aa1bb988b47f564a7f542f212694ba82d2f2b79aba8f4fcfb1128ebe16b0086e00f9c73e94c298b6995a5b9560651772c#npm:3.0.0-rc.3"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
